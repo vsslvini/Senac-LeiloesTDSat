@@ -104,7 +104,7 @@ public class ProdutosDAO {
             JOptionPane.showMessageDialog(null, "Produto vendido com sucesso");
 
         } catch (SQLException ex) {
-            System.out.println("Nao foi possivel atualizar o produto " + ex.getMessage());
+            System.out.println("Nao foi possivel vender o produto " + ex.getMessage());
         }
     }
 
